@@ -1,0 +1,9 @@
+[package]
+name = "dumbsync-cli"
+version = "0.1.0"
+authors = ["M*C*O <mcofficer@gmx.de>"]
+edition = "2018"
+
+[dependencies]
+dumbsync = { path = "../dumbsync" }
+structopt = "0.3.13"
